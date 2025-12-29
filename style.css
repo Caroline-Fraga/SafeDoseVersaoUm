@@ -50,12 +50,6 @@ body {
     display: none;
 }
 
-/* Acessibilidade: foco visível para keyboard users */
-:focus-visible {
-    outline: 3px solid rgba(74, 144, 226, 0.35);
-    outline-offset: 2px;
-}
-
 /* ================================ */
 /* 2. LAYOUT PRINCIPAL         */
 /* ================================ */

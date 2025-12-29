@@ -27,41 +27,41 @@
 
         <section class="panel new-calculation">
             <h2 class="panel-title">NOVO CÁLCULO</h2>
-            <form id="formulario-dosagem" aria-describedby="erro-forma">
+            <form id="dosage-form">
 
                 <div class="form-group">
-                    <label for="medicamento-nome">Nome do Medicamento</label>
-                    <select id="medicamento-nome" aria-describedby="erro-medicamento">
+                    <label for="medication-name">Nome do Medicamento</label>
+                    <select id="medication-name">
                         <option value="">Selecione...</option>
                         <option value="Dipirona">Dipirona</option>
                         <option value="Paracetamol">Paracetamol</option>
                         <option value="Morfina">Morfina</option>
                     </select>
-                    <span class="error-message" id="erro-medicamento" aria-live="polite"></span>
+                    <span class="error-message" id="medication-error-message"></span>
                 </div>
 
                 <div class="form-group">
-                    <label for="dosagem-prescrita">Dosagem Prescrita</label>
+                    <label>Dosagem Prescrita</label>
                     <div class="input-with-units">
-                        <input inputmode="decimal" pattern="[0-9.,]+" type="text" id="dosagem-prescrita" placeholder="0" autocomplete="off" aria-describedby="erro-dosagem-prescrita">
+                        <input type="text" id="prescribed-dosage" placeholder="0" autocomplete="off">
                         <div class="unit-group">
-                            <select id="unidade-prescrita" aria-label="Unidade da dosagem">
+                            <select id="prescribed-unit">
                                 <option value="mg">mg</option>
                                 <option value="mcg">mcg</option>
                                 <option value="g">g</option>
                             </select>
                         </div>
                     </div>
-                    <span class="error-message" id="erro-dosagem-prescrita" aria-live="polite"></span>
+                    <span class="error-message" id="prescribed-dosage-error-message"></span>
                 </div>
 
                 <div class="form-group">
                     <label>Concentração Disponível</label>
-                    <div class="concentration-group" aria-describedby="erro-concentracao">
+                    <div class="concentration-group">
                         <div class="input-with-units">
-                            <input inputmode="decimal" pattern="[0-9.,]+" type="text" id="massa-disponivel" placeholder="0" autocomplete="off" aria-label="massa disponível">
+                            <input type="text" id="available-mass" placeholder="0" autocomplete="off">
                             <div class="unit-group">
-                                <select id="unidade-massa-disponivel" aria-label="Unidade da massa">
+                                <select id="available-mass-unit">
                                     <option value="mg">mg</option>
                                     <option value="mcg">mcg</option>
                                     <option value="g">g</option>
@@ -70,27 +70,27 @@
                         </div>
                         <span class="concentration-separator">/</span>
                         <div class="input-with-units">
-                            <input inputmode="decimal" pattern="[0-9.,]+" type="text" id="volume-disponivel" placeholder="0" autocomplete="off" aria-label="volume disponível">
+                            <input type="text" id="available-volume" placeholder="0" autocomplete="off">
                             <div class="unit-group">
-                                <select id="unidade-volume-disponivel" aria-label="Unidade do volume">
+                                <select id="available-volume-unit">
                                     <option value="ml">ml</option>
                                     <option value="L">L</option>
                                 </select>
                             </div>
                         </div>
                     </div>
-                    <span class="error-message" id="erro-concentracao" aria-live="polite"></span>
+                    <span class="error-message" id="available-concentration-error-message"></span>
                 </div>
 
                 <div class="form-group">
-                    <label for="forma-farmaceutica">Forma Farmacêutica</label>
-                    <select id="forma-farmaceutica" aria-describedby="erro-forma">
+                    <label for="pharmaceutical-form">Forma Farmacêutica</label>
+                    <select id="pharmaceutical-form">
                         <option value="">Selecione...</option>
                         <option value="Líquido">Líquido</option>
                         <option value="Comprimido">Comprimido</option>
                         <option value="Injeção">Injeção</option>
                     </select>
-                    <span class="error-message" id="erro-forma" aria-live="polite"></span>
+                    <span class="error-message" id="form-error-message"></span>
                 </div>
 
                 <button type="submit" class="calculate-btn">CALCULAR</button>
@@ -99,8 +99,8 @@
 
         <section class="panel result">
             <h2 class="panel-title">RESULTADO</h2>
-            <div id="result-content" class="result-box" role="region" aria-live="polite">
-                <i class="fas fa-info-circle initial-icon" aria-hidden="true"></i>
+            <div id="result-content" class="result-box">
+                <i class="fas fa-info-circle initial-icon"></i>
                 <div class="initial-message">Preencha os dados para calcular a dosagem.</div>
             </div>
         </section>
@@ -131,3 +131,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
