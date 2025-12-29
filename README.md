@@ -11,7 +11,7 @@ SafeDose é uma calculadora de dosagem desenvolvida para fins educacionais e de 
 
 ## Preview 👀
 
-https://github.com/user-attachments/assets/f8d21312-c8a9-4382-92dd-50cb35af2ebe
+https://github.com/user-attachments/assets/7c84499a-891c-426b-9203-6f065319ca91
 
 ## Funcionalidades principais ✨
 
@@ -24,13 +24,13 @@ https://github.com/user-attachments/assets/f8d21312-c8a9-4382-92dd-50cb35af2ebe
 
 ## Tecnologias 🛠️
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) (variáveis, Grid e Flexbox)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) (variáveis, Grid e Flexbox)
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) (ES6+)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) (ES6+)
 
-![Font Awesome](https://img.shields.io/badge/Font%20Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) (ícones)
+- ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) (ícones)
 
 ## Como executar localmente 🏁
 
@@ -98,6 +98,7 @@ python -m http.server 3000
 ---
 ## Autor ✍️
 
+Desenvolvido por **Caroline Fraga da Silva**. Projetado para apresentação em portfólio e uso acadêmico.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caroline-fraga-da-silva/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Caroline-Fraga)
