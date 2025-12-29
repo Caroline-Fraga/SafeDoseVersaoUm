@@ -11,8 +11,7 @@ SafeDose é uma calculadora de dosagem desenvolvida para fins educacionais e de 
 
 ## Preview 👀
 
-Adicione um GIF (`preview.gif`) ou imagens (`preview-desktop.png`, `preview-mobile.png`) na raiz para mostrar o fluxo de cálculo e o layout responsivo.
-
+https://github.com/user-attachments/assets/f8d21312-c8a9-4382-92dd-50cb35af2ebe
 
 ## Funcionalidades principais ✨
 
@@ -26,8 +25,11 @@ Adicione um GIF (`preview.gif`) ou imagens (`preview-desktop.png`, `preview-mobi
 ## Tecnologias 🛠️
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) (variáveis, Grid e Flexbox)
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) (ES6+)
+
 ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) (ícones)
 
 ## Como executar localmente 🏁
@@ -94,7 +96,8 @@ python -m http.server 3000
 ![Status](https://img.shields.io/badge/status-Conclu%C3%ADdo-brightgreen)
 
 ---
-## Autor(a) ✍️
+## Autor ✍️
+
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caroline-fraga-da-silva/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Caroline-Fraga)
