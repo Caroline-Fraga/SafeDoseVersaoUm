@@ -65,6 +65,7 @@ python -m http.server 3000
 ```
 /
 ├─ index.html         # Interface principal
+├─ README.md          # Este arquivo
 ├─ style.css          # Estilos (variáveis, componentes, responsividade)
 ├─ script.js          # Lógica de cálculo, validação e histórico
 
